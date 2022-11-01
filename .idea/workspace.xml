@@ -4,7 +4,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12c63d6f-9ec8-4dba-893b-434c4d3ab2a1" name="Changes" comment="" />
+    <list default="true" id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/Validator/pojoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/Validator/pojoValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/Author.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/Book.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/BookStore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/BookToBookStore.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/Language.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/Loader.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/SwaggerJson.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/jsonFiles/controllerExceptionHandlerJsonTemplate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/Classloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/Classloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/EntityClassGen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/EntityClassGen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/FileNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/FileNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/MyAutoGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/MyAutoGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/PathValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/JOOQ/PojosGen/PathValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/SwaggerCodeGen/GenerateSpringBootProject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/SwaggerCodeGen/GenerateSpringBootProject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/SwaggerCodeGen/SwaggerCodeGenException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/SwaggerCodeGen/SwaggerCodeGenException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jooq/codegen/GeneratorWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jooq/codegen/GeneratorWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/json/simple/JSONObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/json/simple/JSONObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/DummyScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/DummyScript.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ControllerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ControllerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ErrorMessageTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ErrorMessageTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ServiceExceptionTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/ServiceExceptionTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/applicationPropertiesTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/applicationPropertiesTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/mainClassTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/mainClassTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/modelTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/modelTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/pomTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/pomTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/servicesTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/servicesTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/swaggerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/swaggerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Script2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Script2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DummyScript.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DummyScript.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ControllerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ControllerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ErrorMessageTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ErrorMessageTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ServiceExceptionTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ServiceExceptionTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/applicationPropertiesTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/applicationPropertiesTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/mainClassTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/mainClassTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/modelTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/modelTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/pomTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/pomTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/servicesTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/servicesTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/swaggerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/HandlebarTemplates/swaggerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Script.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Script2.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Script2.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tech Debt.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tech Debt.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,17 +92,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2Gtcevy5Gyll0LQZzQy2Wlr45cf" />
+  <component name="ProjectId" id="2Gw0OglSmIJPqkrWnLqqiY8JyNv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.codegen.Main" />
@@ -69,23 +126,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="12c63d6f-9ec8-4dba-893b-434c4d3ab2a1" name="Changes" comment="" />
-      <created>1667211421186</created>
+      <changelist id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="" />
+      <created>1667284317798</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667211421186</updated>
+      <updated>1667284317798</updated>
     </task>
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

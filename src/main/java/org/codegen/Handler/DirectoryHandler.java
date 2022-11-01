@@ -61,8 +61,8 @@ public class DirectoryHandler {
         }
     }
 
-    public static void deleteDirectory(String filePath)  {
-        File file =new File(filePath);
+    public static void deleteDirectory(String directoryPath)  {
+        File file =new File(directoryPath);
         try {
             if (file.isDirectory()) {
                 FileUtils.deleteQuietly(file);
@@ -77,14 +77,14 @@ public class DirectoryHandler {
     }
 
 
-    public static void deleteFiles(List<String> classNames, String filePath){
+    public static void deleteFiles(List<String> classNames, String filePath, String fileExtension){
         for (String className:classNames) {
-            File file = new File(filePath+"\\"+className+".class");
+            File file = new File(filePath+"\\"+className+fileExtension);
             if (file.exists()) {
                 file.delete();
-                log.info("{}.class deleted successfully",className);
+                log.info("{}{} deleted successfully",className,fileExtension);
             } else {
-                log.info("{}.class does not exist",className);
+                log.info("{}{} does not exist",className,fileExtension);
             }
 
         }

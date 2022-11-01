@@ -13,6 +13,8 @@ import java.util.List;
 
 public class TemplateHandler {
     private static final Logger log = LoggerFactory.getLogger(TemplateHandler.class);
+
+
 //    public static void SwaggerYaml()
 //    {
 //        try
@@ -76,14 +78,6 @@ public class TemplateHandler {
         DirectoryHandler.createDirectory(DirectoryHandler.generateDirectoryPath()+"\\model");
         DirectoryHandler.createDirectory(DirectoryHandler.generateDirectoryPath()+"\\Exception");
         DirectoryHandler.createDirectory(DirectoryHandler.outerDirectoryPath+"\\src\\main\\resources");
-
-//        try{
-//            File file =new File(DirectoryHandler.outerDirectoryPath+"\\src\\main\\resources\\application.properties");
-//            file.createNewFile();
-//        }
-//        catch (Exception e){
-//            log.info(e.getMessage(),e.getCause());
-//        }
         for (String className:classNames) {
             generateClassFromTemplates("HandlebarTemplates/mainClassTemplate", DirectoryHandler.generateDirectoryPath()+"\\"+ DirectoryHandler.getScriptName()+".java", DirectoryHandler.generateDirectoryPath()+"\\jsonFiles\\"+className+".json");
             generateClassFromTemplates("HandlebarTemplates/pomTemplate", DirectoryHandler.outerDirectoryPath+"\\pom.xml", DirectoryHandler.generateDirectoryPath()+"\\jsonFiles\\"+className+".json");

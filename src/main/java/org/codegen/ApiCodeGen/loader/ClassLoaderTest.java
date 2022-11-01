@@ -26,7 +26,9 @@ import static org.codegen.ApiCodeGen.Validator.pojoValidator.validatePojoClasses
 
 public class ClassLoaderTest {
 
-
+    /**
+     * TODO Optimize is left
+     */
     private static final Logger log = LoggerFactory.getLogger(ClassLoaderTest.class);
 
     /**
@@ -47,20 +49,12 @@ public class ClassLoaderTest {
                 JSONArray jsonArray2 = new JSONArray();
                 ArrayList<Object> fields = new ArrayList<>();
                 ArrayList<Object> fieldTypes = new ArrayList<>();
-
-
                 JSONObject jsonBody = (JSONObject) new JSONParser().parse(jsonObject.get(classname).toString());
-
                 fieldTypes.addAll(jsonBody.values());
-
-
                 fields.addAll(jsonBody.keySet());
-
-
                 json2.put("className", classname);
                 json2.put("scriptName", DirectoryHandler.getScriptName());
                 json2.put("schemaName",DirectoryHandler.getSchemaName());
-
                 int count = 0;
 
                 while (count != fields.size()) {
@@ -93,14 +87,13 @@ public class ClassLoaderTest {
      */
 
     public static List<String> loadClass(Set<Class> classObject) {
-        System.out.println("hi in loadclass"+classObject);
+        log.info("Load Class Method {}",classObject);
         JSONObject jsonBody = null;
         List<String> classnames = new ArrayList<>();
         try {
             jsonBody = new JSONObject();
             for (Class classContent : classObject) {
                 String classname = classContent.getSimpleName();
-                System.out.println(classname);
                 classnames.add(classname);
                 log.info("Pojo Classname : {}", classname);
                 JSONObject object = getJsonBody(classContent);
@@ -134,7 +127,6 @@ public class ClassLoaderTest {
         try {
             object = new JSONObject();
             Field[] fields = classContent.getDeclaredFields();
-
             List<Field> fieldlist = Arrays.stream(fields).filter(field -> field.getAnnotation(Id.class) != null).collect(Collectors.toList());
 
             for (Field field : Arrays.stream(fields).skip(1).collect(Collectors.toList())) {
@@ -158,7 +150,7 @@ public class ClassLoaderTest {
         JavaCompiler compiler = ToolProvider.getSystemJavaCompiler();
         int compilationResult = compiler.run(null, null, null, filePath.getAbsolutePath());
         if (compilationResult == 0) {
-            log.info("Compilation is successful");
+            log.info("Compilation is successful of {}",filePath.getName());
         } else {
             log.info("Compilation Failed at " + filePath.getName());
         }
@@ -169,26 +161,23 @@ public class ClassLoaderTest {
         Class cls = null;
         try {
             String s =  "com.gemini."+ DirectoryHandler.getScriptName()+".entity."+DirectoryHandler.getSchemaName()+".tables.pojos." + filePath.getName().replaceAll(".java", "");
-            System.out.println(s);
             URL url = directoryPath.toURI().toURL();
             URL[] urls = new URL[]{url};
             ClassLoader cl = new URLClassLoader(urls);
             cls = cl.loadClass(s);
-
         } catch (Exception e) {
             log.error("Exception in fullyQualifiedClassName {}", e.getMessage());
         }
+        log.info("fullyQualifiedClassName----->{}",cls);
         return cls;
     }
 
     public static Set<Class> readClass() {
         File[] files = new File(DirectoryHandler.generateDirectoryPath()+"\\entity\\"+DirectoryHandler.getSchemaName()+"\\tables\\pojos").listFiles();
-        System.out.println("hi files array"+files);
         Set<Class> classes = new HashSet<>();
         try {
             if (validatePojoClasses() == true) {
                 for (File file : files) {
-                    System.out.println(file);
                     javaCompileClass(file);
                     classes.add(fullyQualifiedClassName(file));
                 }
@@ -197,7 +186,6 @@ public class ClassLoaderTest {
         } catch (Exception e) {
             log.error("Exception in ClassLoader Method {}", e.getMessage());
         }
-        System.out.println("hi classes"+classes);
         return classes;
     }
 

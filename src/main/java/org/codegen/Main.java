@@ -1,6 +1,6 @@
 package org.codegen;
 
-//import org.apache.log4j.BasicConfigurator;
+
 import org.codegen.ApiCodeGen.loader.ClassLoaderTest;
 import org.codegen.Handler.DirectoryHandler;
 import org.codegen.Handler.TemplateHandler;
@@ -10,37 +10,36 @@ import org.slf4j.LoggerFactory;
 import java.io.IOException;
 import java.util.List;
 
-import static java.nio.file.Paths.get;
 
 public class Main {
 
     private static final Logger log = LoggerFactory.getLogger(Main.class);
 
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
 
-//        BasicConfigurator.configure();
 
-//        DirectoryHandler.createDirectory(DirectoryHandler.generateDirectoryPath());
-//        log.info("<------ CodeGen FrameWork Started ------>");
-//        try {
-//            EntityClassGen.EntityGenerator(DirectoryHandler.outerScriptDirectoryPath, "com.gemini."+ DirectoryHandler.getScriptName()+".entity", DirectoryHandler.generateDirectoryPath());
-//        } catch (Exception e) {
-//            log.error("Exception in generating POJO classes {}", e.getMessage());
-//        }
-//
-//        DirectoryHandler.renameDirectory(DirectoryHandler.generateDirectoryPath()+"\\com\\gemini\\"+ DirectoryHandler.getScriptName()+"\\entity");
-//
-//        List<String> classNames= ClassLoaderTest.loadClass(ClassLoaderTest.readClass());
-//        System.out.println(classNames);
-//        ClassLoaderTest.convertIntoAPIJson();
-//        TemplateHandler.generateSpringBootProject(classNames);
+        DirectoryHandler.createDirectory(DirectoryHandler.generateDirectoryPath());
+        log.info("<------ CodeGen FrameWork Started ------>");
+        log.info("<------ Jooq Pojo Classes Generation Started ------>");
+        try {
+            EntityClassGen.EntityGenerator(DirectoryHandler.outerScriptDirectoryPath, "com.gemini."+ DirectoryHandler.getScriptName()+".entity", DirectoryHandler.generateDirectoryPath());
+        } catch (Exception e) {
+            log.error("Exception in generating POJO classes {}", e.getMessage());
+        }
+        log.info("<------ Jooq Pojo Classes Generation Ended ------>");
 
-//        DirectoryHandler.deleteDirectory(DirectoryHandler.generateDirectoryPath()+"\\com");
+        DirectoryHandler.renameDirectory(DirectoryHandler.generateDirectoryPath()+"\\com\\gemini\\"+ DirectoryHandler.getScriptName()+"\\entity");
+        List<String> classNames= ClassLoaderTest.loadClass(ClassLoaderTest.readClass());
+        log.info(" ClassNames------>{}",classNames);
+        ClassLoaderTest.convertIntoAPIJson();
+        TemplateHandler.generateSpringBootProject(classNames);
+
+        DirectoryHandler.deleteDirectory(DirectoryHandler.generateDirectoryPath()+"\\com");
+        DirectoryHandler.deleteFiles(classNames, DirectoryHandler.generateDirectoryPath()+"\\entity\\"+DirectoryHandler.getSchemaName()+"\\tables\\pojos",".class");
 //        DirectoryHandler.deleteFiles(classNames, DirectoryHandler.generateDirectoryPath()+"\\jsonFiles",".json");
         DirectoryHandler.deleteDirectory(DirectoryHandler.generateDirectoryPath()+"\\jsonFiles");
-//        DirectoryHandler.deleteFiles(classNames, DirectoryHandler.generateDirectoryPath()+"\\entity\\"+DirectoryHandler.getSchemaName()+"\\tables\\pojos",".class");
-
+        log.info("<------ CodeGen FrameWork Successfully Generated------>");
 
 //        Handlebar.SwaggerYaml();
 //        try {

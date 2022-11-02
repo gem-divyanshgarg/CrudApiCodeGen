@@ -6,43 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/Validator/pojoValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/Validator/pojoValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SwaggerCodeGen-1.1-SNAPSHOT-shaded.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/SwaggerCodeGen-1.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/DummyScript.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ControllerTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ErrorMessageTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ServiceExceptionTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/applicationPropertiesTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/mainClassTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/modelTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/pomTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/servicesTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/swaggerTemplate.hbs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Script.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Script2.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SwaggerYaml.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/ApiCodeGen/Validator/pojoValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/ApiCodeGen/loader/ClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/TemplateHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/EntityClassGen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/FileNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/MyAutoGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/PathValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jooq/codegen/GeneratorWriter$CloseResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/jooq/codegen/GeneratorWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/json/simple/JSONObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,13 +48,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Intellj Projects/CrudApiCodeGen/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Intellj Projects/CrudApiCodeGen/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Intellj Projects\CrudApiCodeGen\src" />
@@ -132,5 +101,26 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileDeleteStrategy.class</url>
+          <line>33</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileDeleteStrategy.class</url>
+          <line>32</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java</url>
+          <line>94</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,7 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.File;
 import java.io.FilenameFilter;
-import java.util.Arrays;
+import java.io.IOException;
 import java.util.List;
 
 public class DirectoryHandler {
@@ -61,7 +61,8 @@ public class DirectoryHandler {
         File file =new File(directoryPath);
         try {
             if (file.isDirectory()) {
-                FileUtils.deleteQuietly(file);
+//                FileUtils.deleteQuietly(file);
+                FileUtils.forceDelete(file);
                 log.info("Directory deleted successfully : {}", file);
             } else {
                 log.info("Directory does not exist");
@@ -73,12 +74,31 @@ public class DirectoryHandler {
     }
 
 
-    public static void deleteFiles(List<String> classNames, String filePath, String fileExtension){
+    public static void deleteFiles(List<String> classNames, String filePath, String fileExtension) throws InterruptedException, IOException {
+
         for (String className:classNames) {
             File file = new File(filePath+"\\"+className+fileExtension);
             if (file.exists()) {
+                log.info("Required Path----->{}",file);
                 file.delete();
+//                FileUtils.forceDelete(file);
                 log.info("{}{} deleted successfully",className,fileExtension);
+            } else {
+                log.info("{}{} does not exist",className,fileExtension);
+            }
+
+        }
+    }
+
+    public static void renameFiles(List<String> classNames, String filePath, String fileExtension) throws InterruptedException, IOException {
+
+        for (String className:classNames) {
+            File file = new File(filePath+"\\"+className+fileExtension);
+            if (file.exists()) {
+                log.info("Required Path----->{}",file);
+                Boolean b=file.renameTo(new File(DirectoryHandler.generateDirectoryPath() +"\\jsonFiles\\"+ className + ".txt"));
+                log.info("Result-------->{}",b);
+                log.info("{}{} Renamed successfully",className,fileExtension);
             } else {
                 log.info("{}{} does not exist",className,fileExtension);
             }

@@ -49,6 +49,7 @@ public class TemplateHandler {
             Object obj = jsonParser.parse(fileReader);
             FileWriter fileWriter =new FileWriter(String.valueOf(path1));
             fileWriter.write(template.apply(obj));
+            fileReader.close();
             fileWriter.close();
         }
         catch (Exception e)

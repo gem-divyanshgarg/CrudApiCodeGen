@@ -8,6 +8,7 @@ import org.codegen.JOOQ.PojosGen.EntityClassGen;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -34,10 +35,8 @@ public class Main {
         log.info(" ClassNames------>{}",classNames);
         ClassLoaderTest.convertIntoAPIJson();
         TemplateHandler.generateSpringBootProject(classNames);
-
         DirectoryHandler.deleteDirectory(DirectoryHandler.generateDirectoryPath()+"\\com");
         DirectoryHandler.deleteFiles(classNames, DirectoryHandler.generateDirectoryPath()+"\\entity\\"+DirectoryHandler.getSchemaName()+"\\tables\\pojos",".class");
-//        DirectoryHandler.deleteFiles(classNames, DirectoryHandler.generateDirectoryPath()+"\\jsonFiles",".json");
         DirectoryHandler.deleteDirectory(DirectoryHandler.generateDirectoryPath()+"\\jsonFiles");
         log.info("<------ CodeGen FrameWork Successfully Generated------>");
 

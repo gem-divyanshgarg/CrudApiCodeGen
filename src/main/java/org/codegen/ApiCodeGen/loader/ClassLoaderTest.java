@@ -41,7 +41,8 @@ public class ClassLoaderTest {
 
 
         try {
-            JSONObject jsonObject = (JSONObject) new JSONParser().parse(new FileReader(DirectoryHandler.generateDirectoryPath()+"\\jsonFiles\\Loader.json"));
+            FileReader fileReader=new FileReader(DirectoryHandler.generateDirectoryPath()+"\\jsonFiles\\Loader.json");
+            JSONObject jsonObject = (JSONObject) new JSONParser().parse(fileReader);
             for (Object classname : jsonObject.keySet()) {
                 JSONObject json1 = new JSONObject();
                 JSONArray jsonArray1 = new JSONArray();
@@ -74,6 +75,7 @@ public class ClassLoaderTest {
                     log.error("Exception in writing into JSON file" + e.getMessage());
                 }
             }
+            fileReader.close();
 
         } catch (Exception e) {
             log.error("Exception in convertIntoApiJson() : {}", e.getMessage());

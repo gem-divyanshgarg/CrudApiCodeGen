@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

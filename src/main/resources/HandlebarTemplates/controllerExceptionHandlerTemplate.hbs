@@ -19,7 +19,9 @@ public class ControllerExceptionHandler {
     public static JSONObject getJsonObject(){
         JSONObject jsonObject=null;
        try {
-           jsonObject = (JSONObject) new JSONParser().parse(new FileReader("src/main/resources/controllerExceptionHandlerJson.json"));
+           FileReader fileReader =new FileReader("src/main/resources/controllerExceptionHandlerJson.json");
+           jsonObject = (JSONObject) new JSONParser().parse(fileReader);
+           fileReader.close();
        }
        catch (Exception e) {
            log.info(e.getMessage(),e.getCause());

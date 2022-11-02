@@ -5,7 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SwaggerCodeGen-1.1-SNAPSHOT-shaded.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/SwaggerCodeGen-1.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DummyScript.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ControllerTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ErrorMessageTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/ServiceExceptionTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/applicationPropertiesTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/mainClassTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/modelTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/pomTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/servicesTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/HandlebarTemplates/swaggerTemplate.hbs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Script.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Script2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SwaggerYaml.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/ApiCodeGen/Validator/pojoValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/ApiCodeGen/loader/ClassLoaderTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/TemplateHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/EntityClassGen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/FileNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/MyAutoGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/JOOQ/PojosGen/PathValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jooq/codegen/GeneratorWriter$CloseResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/jooq/codegen/GeneratorWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/json/simple/JSONObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

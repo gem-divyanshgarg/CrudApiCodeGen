@@ -6,12 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="aa27d15c-3a2f-466d-b3e2-aa3cd312164a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/ApiCodeGen/loader/ClassLoaderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Handler/TemplateHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/codegen/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Handler/DirectoryHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/codegen/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerJsonTemplate.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/HandlebarTemplates/controllerExceptionHandlerTemplate.hbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,11 +111,6 @@
           <url>jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/org/apache/commons/io/FileDeleteStrategy.class</url>
           <line>32</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/codegen/Handler/DirectoryHandler.java</url>
-          <line>94</line>
-          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -61,8 +61,7 @@ public class DirectoryHandler {
         File file =new File(directoryPath);
         try {
             if (file.isDirectory()) {
-//                FileUtils.deleteQuietly(file);
-                FileUtils.forceDelete(file);
+                FileUtils.deleteQuietly(file);
                 log.info("Directory deleted successfully : {}", file);
             } else {
                 log.info("Directory does not exist");
@@ -81,24 +80,7 @@ public class DirectoryHandler {
             if (file.exists()) {
                 log.info("Required Path----->{}",file);
                 file.delete();
-//                FileUtils.forceDelete(file);
                 log.info("{}{} deleted successfully",className,fileExtension);
-            } else {
-                log.info("{}{} does not exist",className,fileExtension);
-            }
-
-        }
-    }
-
-    public static void renameFiles(List<String> classNames, String filePath, String fileExtension) throws InterruptedException, IOException {
-
-        for (String className:classNames) {
-            File file = new File(filePath+"\\"+className+fileExtension);
-            if (file.exists()) {
-                log.info("Required Path----->{}",file);
-                Boolean b=file.renameTo(new File(DirectoryHandler.generateDirectoryPath() +"\\jsonFiles\\"+ className + ".txt"));
-                log.info("Result-------->{}",b);
-                log.info("{}{} Renamed successfully",className,fileExtension);
             } else {
                 log.info("{}{} does not exist",className,fileExtension);
             }

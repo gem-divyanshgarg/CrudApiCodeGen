@@ -27,24 +27,24 @@ public class ControllerExceptionHandler {
        return jsonObject;
     }
 
-    @ExceptionHandler(Exception.class)
+  @ExceptionHandler(Exception.class)
     public ResponseEntity<ErrorMessage> exceptionHandler(Exception ex, WebRequest request) {
         ErrorMessage message = new ErrorMessage(
-                (Integer)((JSONObject)getJsonObject().get("Exception")).get("statusCode"),
+                Math.toIntExact((Long) ((JSONObject) getJsonObject().get("Exception")).get("statusCode")),
                 new Date(),
                 request.getDescription(false), ex.getMessage());
-        return new ResponseEntity<ErrorMessage>(message, (HttpStatus) ((JSONObject)getJsonObject().get("Exception")).get("responseCode"));
+        return new ResponseEntity<ErrorMessage>(message,HttpStatus.valueOf((String) ((JSONObject)getJsonObject().get("Exception")).get("responseCode")));
     }
 
     @ExceptionHandler(ServiceException.class)
     public ResponseEntity<ErrorMessage> serviceException(ServiceException ex, WebRequest request) {
         ErrorMessage message = new ErrorMessage(
-                (Integer)((JSONObject)getJsonObject().get("serviceException")).get("statusCode"),
+                Math.toIntExact((Long) ((JSONObject) getJsonObject().get("serviceException")).get("statusCode")),
                 new Date(),
                 ex.getMessage(),
                 request.getDescription(false),
                 ex.getErrorMessage());
-        return new ResponseEntity<ErrorMessage>(message,(HttpStatus) ((JSONObject)getJsonObject().get("serviceException")).get("responseCode"));
+        return new ResponseEntity<ErrorMessage>(message,HttpStatus.valueOf((String) ((JSONObject)getJsonObject().get("serviceException")).get("responseCode")));
     }
 
 }
